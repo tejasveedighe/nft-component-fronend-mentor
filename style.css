@@ -71,6 +71,11 @@ body {
     justify-content: space-between;
 }
 
+.contents h2:hover{
+  color: var(--cyan);
+  cursor: pointer;
+}
+
 .amount {
   color: var(--cyan);
 }
@@ -99,6 +104,16 @@ body {
   border-radius: 50px;
   vertical-align: text-bottom;
   margin-right: 10px;
+}
+
+.creator span {
+  padding-left: 5px;
+  color: var(--white);
+}
+
+.creator span:hover {
+  color: var(--cyan);
+  cursor: pointer;
 }
 
 .card.text {
